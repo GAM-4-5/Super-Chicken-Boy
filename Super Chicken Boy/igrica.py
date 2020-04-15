@@ -129,7 +129,7 @@ while run:
         man.walkCount = 0
         
     if not(man.isJump):
-        if keys[pygame.K_UP]:
+        if keys[pygame.K_UP]: ##skakanje 
             man.isJump = True
             man.right = False
             man.left = False
