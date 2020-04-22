@@ -1,4 +1,4 @@
-import pygame ##jedan modul koji je trebao
+import pygame 
 pygame.init() ##pokretanje
 
 prozor = pygame.display.set_mode((590,400)) ##veličina ekrana
